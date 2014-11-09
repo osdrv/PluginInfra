@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3B18FD1A101EC50063DD46 /* SecondPlugin.js in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B18FC1A101EC50063DD46 /* SecondPlugin.js */; };
 		5D7E8A701A0AEC86000AD8BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8A6F1A0AEC86000AD8BD /* AppDelegate.swift */; };
 		5D7E8A721A0AEC86000AD8BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7E8A711A0AEC86000AD8BD /* Images.xcassets */; };
 		5D7E8A751A0AEC86000AD8BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7E8A731A0AEC86000AD8BD /* MainMenu.xib */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3B18FC1A101EC50063DD46 /* SecondPlugin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SecondPlugin.js; sourceTree = "<group>"; };
 		5D7E8A6A1A0AEC86000AD8BD /* PluginInfra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginInfra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7E8A6E1A0AEC86000AD8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7E8A6F1A0AEC86000AD8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				5D7E8A8D1A0C3157000AD8BD /* TestPlugin.js */,
+				5D3B18FC1A101EC50063DD46 /* SecondPlugin.js */,
 			);
 			name = plugins;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7E8A721A0AEC86000AD8BD /* Images.xcassets in Resources */,
+				5D3B18FD1A101EC50063DD46 /* SecondPlugin.js in Resources */,
 				5D7E8A751A0AEC86000AD8BD /* MainMenu.xib in Resources */,
 				5D7E8A8E1A0C3157000AD8BD /* TestPlugin.js in Resources */,
 			);
